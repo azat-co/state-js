@@ -268,6 +268,8 @@ Get started:
 
 Seriously! 😏
 
+![inline 70%](images/notepadpp.png)
+
 ---
 
 ## Get VS Code
