@@ -18,7 +18,7 @@ Azat Mardan @azat_co
 
 * Author of 14 books and over 20 online courses, taught over 500 engineers in-person and over 25,000 online (Udemy and Node University)
 * Likes FinTech, blockchain and his coffee :coffee: with coconut oil
-* Works as Capital One (in top 10 US banks) in Technology Fellows
+* Works as Capital One (in top 10 US banks) in Technology Fellows Program
 
 ---
 
@@ -164,7 +164,7 @@ npm install @babel/preset-env --save-exact
 * Elm
 * ClojureScript
 
---
+---
 
 ## State Management
 
@@ -271,6 +271,8 @@ Seriously! 😏
 
 ---
 
+[.autoscale:true]
+
 ## How Organizations use Node
 
 * Back-end 73%
@@ -282,6 +284,7 @@ Seriously! 😏
 * Security 8%
 
 ^ [2017 USER SURVEY EXECUTIVE SUMMARY](https://nodejs.org/static/documents/casestudies/Nodejs_2017_User_Survey_Exec_Summary.pdf)
+
 ---
 
 ![inline](images/langs.png)
@@ -298,22 +301,24 @@ The following feature is currently at stage 4:
 
 ---
 
+[.autoscale:true]
+
 ## Future: ES2018 Candidate features (stage 3)  
 
 The following features are currently at stage 3:
 
 * Function.prototype.toString revision (Michael Ficarra)
-* `global` (Jordan Harband)
+* **`global` (Jordan Harband)**
 * Rest/Spread Properties (Sebastian Markbåge)
 * Asynchronous Iteration (Domenic Denicola)
-* `import()` (Domenic Denicola)
+* **`import()` (Domenic Denicola)**
 * RegExp Lookbehind Assertions (Daniel Ehrenberg)
 * RegExp Unicode Property Escapes (Brian Terlson, Daniel Ehrenberg, Mathias Bynens)
 * RegExp named capture groups (Daniel Ehrenberg, Brian Terlson)
 * s (dotAll) flag for regular expressions (Mathias Bynens, Brian Terlson)
 * Promise.prototype.finally() (Jordan Harband)
 * BigInt – arbitrary precision integers (Daniel Ehrenberg)
-* Class fields (Daniel Ehrenberg, Jeff Morrison)
+* **Class fields (Daniel Ehrenberg, Jeff Morrison)**
 * Optional catch binding (Michael Ficarra)
 
 ^Talk about class fields, import(), global, finally
@@ -358,11 +363,13 @@ If can be written in JavaScript, it will be written in JavaScript. If you can pi
 
 ---
 
+# THE END
+
 ## Links
 
+* <https://github.com/azat-co/state-js>
 * <http://azat.co>
 * <https://webapplog.com> 
 * <https://node.university>
-
 
 
