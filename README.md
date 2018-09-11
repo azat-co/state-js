@@ -108,8 +108,19 @@ document.getElementById('nav').style.left = 300;
 
 ^ [Stack Overflow Developer Survey Results 2017](https://insights.stackoverflow.com/survey/2017#technology)
 
+
 ---
 
+# Stack Overflow survey 2018
+
+* Over 100,000 developers
+* JavaScript increase from 62.5% to 69.8%
+
+![right width:60%](images/stackoverflow-2018.png)
+
+^ [Stack Overflow Developer Survey Results 2018](https://insights.stackoverflow.com/survey/2018#technology)
+
+---
 # ES2015 (a.k.a. ES6) - only important
 
 * Fat arrow functions
