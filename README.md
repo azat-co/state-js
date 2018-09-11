@@ -1,14 +1,14 @@
-footer: © NodeProgram.com, Node.University and Azat Mardan 2017
+footer: © NodeProgram.com, Node.University and Azat Mardan 2018
 theme: Simple, 1
 build-lists: true
 
-[.slidenumbers: false] 
+[.slidenumbers: false]
 [.hide-footer]
 
-# State of Javascript: Overview of recent ECMAScript standard and libraries (end of 2017, early 2018)
+# State of Javascript: Overview of recent ECMAScript standard and libraries (end of 2018, early 2019)
 
 ![inline 100%](images/azat.jpeg)
-Azat Mardan @azat_co
+Azat Mardan Twitter: @azatmardan
 
 ![inline right](images/nu.png)
 
@@ -16,9 +16,11 @@ Azat Mardan @azat_co
 
 # Meet Your Presenter: Azat Mardan
 
-* Author of 14 books and over 20 online courses, taught over 500 engineers in-person and over 25,000 online (Udemy and Node University)
+* Author of 18 books and over 20 online courses, taught over 500 engineers in-person and over 25,000 online (Udemy and Node University)
 * Likes FinTech, blockchain and his coffee :coffee: with coconut oil
-* Works as Capital One (in top 10 US banks) in Technology Fellows Program
+* Works as a Sr. SE Manager at Indeed, ex-Tech Fellow at Capital One
+* #239 most active GitHub contributor in the world
+* Microsoft Most Valuable Professional
 
 ---
 
@@ -98,13 +100,13 @@ document.getElementById('nav').style.left = 300;
 
 # Stack Overflow survey 2017
 
-* Over 64,000 developers 
+* Over 64,000 developers
 * 72% Web developers
 * 63% Full stack web developers
 
 ![right width:60%](images/world-js.png)
 
-^ [Stack Overflow Developer Survey Results 2017](https://insights.stackoverflow.com/survey/2017#technology) 
+^ [Stack Overflow Developer Survey Results 2017](https://insights.stackoverflow.com/survey/2017#technology)
 
 ---
 
@@ -195,6 +197,14 @@ npm install @babel/preset-env --save-exact
 
 ---
 
+## Angular vs. React
+
+---
+
+## React vs. pReact
+
+---
+
 ## API
 
 * REST API
@@ -225,7 +235,7 @@ npm install @babel/preset-env --save-exact
 
 # Enterprise app + Strong Typing = ♥️
 
-Benefits: 
+Benefits:
 
 * Static analysis, a.k.a. type checking (IDEs and build tools)
 * Better, safer code reuse
@@ -291,37 +301,56 @@ Seriously! 😏
 
 ---
 
-## Future: ES2018
+## ES2018
 
 The following feature is currently at stage 4:
 
-* Template Literal Revision (Tim Disney)
+* Lifting template literal restriction
+* s (dotAll) flag for regular expressions	Mathias Bynens
+* RegExp named capture groups
+* Rest/Spread Properties
+* RegExp Lookbehind Assertions
+* RegExp Unicode Property Escapes	Mathias Bynens
+* Promise.prototype.finally
+* Asynchronous Iteration
 
-<https://github.com/tc39/proposals>
+^<https://github.com/tc39/proposals>
 
 ---
 
 [.autoscale:true]
 
-## Future: ES2018 Candidate features (stage 3)  
+## ES.Next (Stage 3)
 
 The following features are currently at stage 3:
 
-* Function.prototype.toString revision (Michael Ficarra)
-* **`global` (Jordan Harband)**
-* Rest/Spread Properties (Sebastian Markbåge)
-* Asynchronous Iteration (Domenic Denicola)
-* **`import()` (Domenic Denicola)**
-* RegExp Lookbehind Assertions (Daniel Ehrenberg)
-* RegExp Unicode Property Escapes (Brian Terlson, Daniel Ehrenberg, Mathias Bynens)
-* RegExp named capture groups (Daniel Ehrenberg, Brian Terlson)
-* s (dotAll) flag for regular expressions (Mathias Bynens, Brian Terlson)
-* Promise.prototype.finally() (Jordan Harband)
-* BigInt – arbitrary precision integers (Daniel Ehrenberg)
-* **Class fields (Daniel Ehrenberg, Jeff Morrison)**
-* Optional catch binding (Michael Ficarra)
+* Function.prototype.toString revision
+* global
+* import()
+* Legacy RegExp features in JavaScript
+* BigInt
+* import.meta
+* Private instance methods and accessors
+* Array.prototype.{flat,flatMap}
+
+---
+
+## ES.Next (Stage 3) CONT.
+
+* Class Public Instance Fields & Private Instance Fields
+* Static class fields and private static methods
+* String.prototype.{trimStart,trimEnd}
+* String.prototype.matchAll
+* Symbol.prototype.description
+* Object.fromEntries
 
 ^Talk about class fields, import(), global, finally
+
+---
+
+## Roadmap to becoming a React developer in 2018
+
+<https://github.com/adam-golab/react-developer-roadmap>
 
 ---
 
@@ -329,22 +358,40 @@ The following features are currently at stage 3:
 
 ---
 
-# Summary
+## Increasing automation of jobs
 
-* Learn ECMAScript
-* Use Webpack and Hot Module Reloading
-* Add Flow, Redux, React Router to React if needed
-* Consider Vue instead of Angular
-* Use Node 8, it's faster
-* Switch to VS Code
-* Adopt async functions or just use callbacks
+* Commodity programmers and consumers of frameworks and services
+* Top-notch experts and authors of frameworks and services
+
+<https://insights.stackoverflow.com/survey/2018/#technology-a>
 
 ---
 
-# Wrap up
+## AVOID being replaced by automation!
 
-* JavaScript was a toy language 
-* It spread to other platforms 
+* Continue learning
+* Niche out and focus (80/20)
+* Be financially wise (don't depends just on one salary)
+
+---
+
+# Summary
+
+* Learn ES.Next
+* Use Webpack and Hot Module Reloading
+* Add Flow, Redux, React Router to React if needed
+* Consider Vue instead of Angular
+* Use Node 10 or at least Node 8, it's faster (and Node 10 has worker threads)
+* Switch to VS Code
+* Adopt async functions or just use callbacks
+
+
+---
+
+# Summary CONT.
+
+* JavaScript was a toy language
+* It spread to other platforms
 * It conquered web, i.e., all software
 * It's used by startups and enterprises
 * It's becoming feature-rich
@@ -357,9 +404,14 @@ If can be written in JavaScript, it will be written in JavaScript. If you can pi
 
 * Mixed Reality (VR and AR)
 * Blockchain and dapps
-* Mobile
-* IoT 
+* Mobile and desktop
+* IoT
 * Cloud and databases
+
+
+---
+
+# **AVOID being replaced by automation!**
 
 ---
 
@@ -369,7 +421,7 @@ If can be written in JavaScript, it will be written in JavaScript. If you can pi
 
 * <https://github.com/azat-co/state-js>
 * <http://azat.co>
-* <https://webapplog.com> 
+* <https://webapplog.com>
 * <https://node.university>
 
 
